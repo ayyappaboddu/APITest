@@ -17,7 +17,9 @@ namespace LearnGit.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-
+        /// <summary>
+        /// this is default method
+        /// </summary>
         public AccountController()
         {
         }
