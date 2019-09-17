@@ -9,6 +9,10 @@ namespace LearnGit.Controllers
     public class DefaultController : Controller
     {
         // GET: Default
+        /// <summary>
+        /// this is test index default
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
