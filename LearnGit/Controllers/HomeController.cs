@@ -8,6 +8,11 @@ namespace LearnGit.Controllers
 {
     public class HomeController : Controller
     {
+
+        /// <summary>
+        /// test index
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
